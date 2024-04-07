@@ -20,7 +20,8 @@
         get( ) = name?.let{ "$it $surname"}
     
     fun main() {
-    // 타입 캐스트가 불가능하기 때문에 fullName!!.length 와 같이 null이 아님을 강제해야 한다.if(fullName != null) {
+    // 타입 캐스트가 불가능하기 때문에 fullName!!.length 와 같이 null이 아님을 강제해야 한다.
+        if(fullName != null) {
             println(fullName!!.length)
         }
     }
@@ -37,7 +38,7 @@
     
     fun main() {
         if(fullName != null) {
-            println(fullName.length)// 타입 캐스트가 가능하기 때문에
+            println(fullName.length)// 타입 캐스트가 가능
         }
     }
     
