@@ -37,7 +37,7 @@
     
     fun main() {
         if(fullName != null) {
-            println(fullName.length)// 타입 캐스트가 불가능하기 때문에 fullName!!.length
+            println(fullName.length)// 타입 캐스트가 가능하기 때문에
         }
     }
     
